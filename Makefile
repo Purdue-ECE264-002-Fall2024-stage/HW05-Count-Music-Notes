@@ -4,7 +4,8 @@
 
 WARNING = -Wall -Wshadow --pedantic
 ERROR = -Wvla -Werror
-GCC = gcc -std=c11 -g $(WARNING) $(ERROR) 
+GCC = gcc -std=c11 -g $(WARNING) $(ERROR)
+VALGRIND = valgrind --tool=memcheck --leak-check=full --verbose
 
 SRCS = main.c hw05.c
 OBJS = $(SRCS:%.c=%.o)
@@ -32,3 +33,9 @@ test3: hw05
 
 clean: # remove all machine generated files
 	rm -f hw05 *.o output?? *~
+
+memory: $(hw05)
+	$(VALGRIND) --log-file=log1 ./$(hw05) inputs/FMP_C1_F01_Beethoven_FateMotive_Sibelius.csv > output1
+	$(VALGRIND) --log-file=log2 ./$(hw05) inputs/FMP_C1_F10_Beethoven_Fifth-MM1-21_Sibelius-Orchestra.csv > output2
+	$(VALGRIND) --log-file=log3 ./$(hw05) inputs/FMP_C1_F12_Bach_BWV846_Sibelius-Tracks.csv > output3
+
