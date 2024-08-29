@@ -9,8 +9,10 @@ The following is an example where the CSV file has two rows of music notes.
 
 ![image](https://github.com/Purdue-ECE264-002-Fall2024-stage/HW05-Count-Music-Notes/blob/main/musicCSV.JPG)
 
-As we count how many times each unique music note is used, the output will be as below: 
+As we count how many times each unique music note is used, the output will be:
+
 Pitch 67 : 1
+
 Pitch 55 : 1
 
 Learning Goals 
