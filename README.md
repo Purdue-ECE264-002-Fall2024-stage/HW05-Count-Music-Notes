@@ -17,7 +17,7 @@ Pitch 55 : 1
 Learning Goals 
 ==============
 
-This assignment asks you to write a program that reads characters from a CSV file.Then count the number of each music notes( #e.g how many times is F4 used in the entire note/csv). 
+This assignment asks you to write a program that reads characters from a CSV file.Then count the number of each music notes( #e.g how many times is f4/67 used in the entire note/csv). 
 
 You will learn to
 * Read characters from CSV
@@ -26,7 +26,7 @@ You will learn to
 What You Need To Do
 ===================
 
-Write a function called `countNotes(char * filename, int * pitch)`. You have to read the characters from CSV file, and count the notes. Further instructions are in the comments in the function in file hw05.c
+Write a function called `countNotes(char * filename, double pitch)`. You have to read the characters from CSV file, and count the notes. Further instructions are in the comments in the function in file hw05.c
 
 Check Memory Leak
 =================
