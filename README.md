@@ -19,10 +19,6 @@ Learning Goals
 
 This assignment asks you to write a program that reads characters from a CSV file.Then count the number of each music notes( #e.g how many times is f4/67 used in the entire note/csv). 
 
-You will learn to
-* Read characters from CSV
-* Count the number of occurances of each music note
-
 What You Need To Do
 ===================
 
