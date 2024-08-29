@@ -5,11 +5,11 @@ MIDI Tuning Standard (MTS) is a specification of precise musical pitch agreed to
 You can have a look on simple symbolic music representation encoded in some comma-separated values (CSV) format. 
 [Symbolic CSV format](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S2_CSV.html)
 
-Start;"Duration";"Pitch";"Velocity";"Label"
-0.25;0.23;67.0;1.0;"Right Hand"
-0.25;0.23;55.0;1.0;"Right Hand"
+The following is an example where the CSV file has two rows of music notes.
 ![image](https://github.com/user-attachments/assets/79bb0f4f-38eb-4ab7-9635-c453dd103739)
-
+As we count how many times each unique music note is used, the output will be as below: 
+Pitch 67 : 1
+Pitch 55 : 1
 
 Learning Goals 
 ==============
