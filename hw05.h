@@ -10,5 +10,4 @@
 #include <string.h>
 
 int countNotes(char * filename, int pitch);
-//void findLongest(char * filename, int * longest, int * duration);
 #endif
