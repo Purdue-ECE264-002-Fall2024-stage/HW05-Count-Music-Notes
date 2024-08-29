@@ -26,7 +26,7 @@ You will learn to
 What You Need To Do
 ===================
 
-Write a function called countNotes(char * filename, int * pitch). You have to read the characters from CSV file, and count the notes. Further instructions are in the comments in the function in file hw05.c
+Write a function called `countNotes(char * filename, int * pitch)`. You have to read the characters from CSV file, and count the notes. Further instructions are in the comments in the function in file hw05.c
 
 Check Memory Leak
 =================
@@ -35,7 +35,7 @@ Your program must not crash and must not leak memory. The leaked bytes will
 accumulate across all test cases in each assignment. If your program
 leaks memory, it is very likely that you will receive zero.  Please
 use `valgrind` to check memory errors. A program that leaks memory is
-like an airplane that leaks fuel. Neither can be accepted. For your convenience Valgrind is included in the Makefile. 
+like an airplane that leaks fuel. Neither can be accepted. For your convenience `valgrind` is included in the Makefile. 
 
 WHAT TO SUBMIT
 ==============
