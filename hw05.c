@@ -29,7 +29,7 @@ while (fgets(line, sizeof(line), file)) {
             count++;
         }
     }
-
+    fclose(file); 
     return count;
 
 
