@@ -7,7 +7,7 @@
 
 #define MAXLENGTH 150
 
-int countNotes(char * filename, int pitch){
+int countNotes(char * filename, double pitch){
 
 // Open the CSV file for reading
 //Check if the file was opened successfully
