@@ -31,7 +31,7 @@ Your program must not crash and must not leak memory. The leaked bytes will
 accumulate across all test cases in each assignment. If your program
 leaks memory, it is very likely that you will receive zero.  Please
 use `valgrind` to check memory errors. A program that leaks memory is
-like an airplane that leaks fuel. Neither can be accepted. For your convenience `valgrind` is included in the Makefile. 
+like an airplane that leaks fuel. Neither can be accepted. 
 
 WHAT TO SUBMIT
 ==============
