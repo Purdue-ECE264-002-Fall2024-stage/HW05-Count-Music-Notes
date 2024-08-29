@@ -15,26 +15,5 @@ int countNotes(char * filename, int pitch){
 // Read the header line to skip it
 //count occurance of each pitch   
 //consider using sscanf
-FILE *file = fopen(filename, "r");
-char line[MAXLENGTH];
-int count = 0;
-fgets(line, sizeof(line), file);
-while (fgets(line, sizeof(line), file)) {
-        int currentPitch;
-        sscanf(line, "%*[^;];%*[^;];%d", &currentPitch);
-
-        // Compare with the target pitch
-        if (currentPitch == pitch) {
-            count++;
-        }
-    }
-
-    return count;
 
 }
-
-//void findLongest(char * filename, int * longest, int * duration)
-
-//{
-
-//}
