@@ -35,7 +35,7 @@ clean: # remove all machine generated files
 	rm -f hw05 *.o output?? *~
 
 memory: $(hw05)
-	$(VALGRIND) --log-file=log1 ./$(hw05) inputs/FMP_C1_F01_Beethoven_FateMotive_Sibelius.csv > output1
-	$(VALGRIND) --log-file=log2 ./$(hw05) inputs/FMP_C1_F10_Beethoven_Fifth-MM1-21_Sibelius-Orchestra.csv > output2
-	$(VALGRIND) --log-file=log3 ./$(hw05) inputs/FMP_C1_F12_Bach_BWV846_Sibelius-Tracks.csv > output3
+	$(VALGRIND) --log-file=log1 ./hw05 inputs/FMP_C1_F01_Beethoven_FateMotive_Sibelius.csv > output1
+	$(VALGRIND) --log-file=log2 ./hw05 inputs/FMP_C1_F10_Beethoven_Fifth-MM1-21_Sibelius-Orchestra.csv > output2
+	$(VALGRIND) --log-file=log3 ./hw05 inputs/FMP_C1_F12_Bach_BWV846_Sibelius-Tracks.csv > output3
 
