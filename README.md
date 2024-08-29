@@ -6,7 +6,9 @@ You can have a look on simple symbolic music representation encoded in some comm
 [Symbolic CSV format](https://www.audiolabs-erlangen.de/resources/MIR/FMP/C1/C1S2_CSV.html)
 
 The following is an example where the CSV file has two rows of music notes.
-![image](https://github.com/user-attachments/assets/79bb0f4f-38eb-4ab7-9635-c453dd103739)
+
+![image](https://github.com/Purdue-ECE264-002-Fall2024-stage/HW05-Count-Music-Notes/blob/main/musicCSV.JPG)
+
 As we count how many times each unique music note is used, the output will be as below: 
 Pitch 67 : 1
 Pitch 55 : 1
