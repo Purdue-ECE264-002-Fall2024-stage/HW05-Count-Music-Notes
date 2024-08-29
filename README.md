@@ -12,7 +12,6 @@ The following is an example where the CSV file has two rows of music notes.
 As we count how many times each unique music note is used, the output will be:
 
 Pitch 67 : 1
-
 Pitch 55 : 1
 
 Learning Goals 
