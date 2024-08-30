@@ -32,7 +32,7 @@ test3: hw05
 
 
 clean: # remove all machine generated files
-	rm -f hw05 *.o output?? *~
+	rm -f hw05 *.o output* *~
 
 memory: $(hw05)
 	$(VALGRIND) --log-file=log1 ./hw05 inputs/FMP_C1_F01_Beethoven_FateMotive_Sibelius.csv > output1
