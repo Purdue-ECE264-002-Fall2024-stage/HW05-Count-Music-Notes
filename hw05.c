@@ -11,7 +11,7 @@ int countNotes(char * filename, double pitch){
 
 // Open the CSV file for reading
 //Check if the file was opened successfully
-////MAXLENGTH is maximum number if lines from CSV
+//MAXLENGTH is maximum number of characters in the line
 //store each line of the file
 // Read the header line to skip it
 //count occurance of each pitch   
