@@ -22,7 +22,7 @@ This assignment asks you to write a program that reads characters from a CSV fil
 What You Need To Do
 ===================
 
-Write a function called `countNotes(char * filename, double pitch)`. You have to read the characters from CSV file, and count the notes. Further instructions are in the comments in the function in file hw05.c
+Modify only hw05.c and write a function called `countNotes(char * filename, double pitch)`. You have to read the characters from CSV file, and count how many times each pitch occurs. Further instructions are in the comments in the function in file hw05.c
 
 Check Memory Leak
 =================
