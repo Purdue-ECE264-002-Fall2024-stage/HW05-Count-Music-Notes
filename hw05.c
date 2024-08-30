@@ -16,21 +16,7 @@ int countNotes(char * filename, double pitch){
 // Read the header line to skip it
 //count occurance of each pitch   
 //consider using sscanf
-FILE *file = fopen(filename, "r");
-char line[MAXLENGTH];
-int count = 0;
-fgets(line, sizeof(line), file);
-while (fgets(line, sizeof(line), file)) {
-        double currentPitch;
-        sscanf(line, "%*[^;];%*[^;];%lf", &currentPitch);
 
-        // Compare with the target pitch
-        if (currentPitch == pitch) {
-            count++;
-        }
-    }
-    fclose(file); 
-    return count;
 
 
 }
