@@ -17,7 +17,7 @@ Pitch 55 : 1
 Learning Goals 
 ==============
 
-This assignment asks you to write a program that reads characters from a CSV file.Then count the number of each music notes( #e.g how many times is f4/67 used in the entire note/csv). 
+This assignment asks you to write a program that reads characters from a CSV file.Then count how many times is f4/67 used in the entire csv. 
 
 What You Need To Do
 ===================
@@ -41,8 +41,8 @@ Submit 'hw05.c' to gradescope as a zip file.
 Test Inputs
 ===========
 
-The test inputs are famous music notes. 
+The test inputs are famous music scores. 
 
 Due Date
 =========
-Sept. 17 at 11:59pm
+Sept. 23 at 11:59pm
